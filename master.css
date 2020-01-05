@@ -1,0 +1,465 @@
+* {
+
+}
+
+.header{
+  background: #1E55B6;
+  padding-left: none;
+}
+
+
+.navbar{
+  padding-top: 20px !important;
+  padding-left: none !important;
+  list-style: none;
+}
+
+.nav-item{
+  margin-left: 30px;
+  margin-bottom: 10px;
+  line-height: 16px;
+  padding-left: none;
+  padding-right: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.nav-link{
+  color: #fff !important;
+  font-size: 14px !important;
+  padding: 0 0 5px 0 !important;
+  display: unset !important;
+  text-align: left;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+
+
+.navbar-brand{
+  color: #fff !important;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 16px !important;
+  text-align: left;
+  padding-left: none;
+}
+
+.stem-logo{
+  height: 40px;
+  width: 120px;
+  padding-left: 6px;
+}
+
+
+.dropbtn{
+  background-color: #1E55B6;
+  color: #fff;
+  padding: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dropbtn:hover, .dropbtn:focus{
+  background-color: #1E55B6;
+  color: #fff;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-weight: 60;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show{
+  display: block;
+}
+
+.central {
+  float: left;
+}
+
+
+
+/* Welcome page */
+
+
+.video{
+  padding-top: 30px;
+  border: none;
+  max-width: 480px;
+  max-height: 800px;
+}
+
+.index-desc{
+  color: navy;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.sitelogo img{
+  width: 110px;
+  height: 120;
+  padding-bottom: 50px;
+}
+
+.return1{
+  padding-top: 30px;
+}
+
+.return2{
+  padding-top: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+body {
+	background-color: #111;
+}
+
+.sweet {
+  padding-top: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	letter-spacing: 3px;
+  font-weight: lighter;
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/3bc8pP1rVdfgN1uoMV/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 150px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+h6 {
+	background-image: url(https://media.giphy.com/media/3bc8pP1rVdfgN1uoMV/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+.biomed-courses{
+  background-image: url(https://media.giphy.com/media/3o85xw0yt1yjR4RXi0/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: none;
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+.central {
+	background-image: url(https://media.giphy.com/media/dJtondDjQ6JAtvvXIU/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 26px;
+	line-height: .75;
+	margin: 10px 0;
+  font-weight: bold;
+  text-align: left;
+}
+
+.pltw-engineering {
+  background-image: url(https://media.giphy.com/media/3bc8pP1rVdfgN1uoMV/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: none;
+	font-size: 35px;
+	margin: 10px 0;
+}
+
+.pltw-biomed {
+  background-image: url(https://media.giphy.com/media/3o85xw0yt1yjR4RXi0/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: none;
+	font-size: 35px;
+	margin: 10px;
+}
+
+h5 p{
+  background-image: url(https://media.giphy.com/media/cvmCbRnbBSh56/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: none;
+	font-size: 36px;
+	margin: 10px 0;
+  padding-top: none;
+}
+
+.pltw-teachers{
+  background-image: url(https://media.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: none;
+  font-size: 35px;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+.pltw-stem-letter{
+  padding-top: 30px;
+  padding-left: 30px;
+  text-align: center;
+}
+.desc{
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+
+.download-pdf{
+  padding-left: 80px;
+  padding-top: 40px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.computerscience{
+  text-align:left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#csc{
+  padding-top: 20px;
+  padding-bottom: none;
+}
+
+
+.clear {
+  color: navy;
+  font-size: 26px;
+}
+
+h1 .clear-bio
+}
+
+.csp{
+  font-size: 34px;
+}
+/*Engnineering Page*/
+
+.title{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.title-biomed{
+  padding-left: 20px;
+}
+
+.title p{
+  font-size: 28px;
+  padding-top: none;
+}
+
+
+.title img{
+  height: 50px;
+  float: inherit;
+  padding-bottom: none;
+
+}
+
+
+
+.courses{
+  padding-left: 45px;
+  padding-right: 45px;
+}
+/*TEACHERS PAGE*/
+.teachers-sub {
+  text-align: center;
+  color: navy;
+  padding-top:35px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+.column{
+  padding-left: 30px;
+  padding-top: 75px;
+  text-align: center;
+}
+
+.teacher-name{
+  font-size: 24px;
+  padding-bottom: none;
+  background-image: url(https://media.giphy.com/media/dJtondDjQ6JAtvvXIU/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: none;
+  font-size: 35px;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+
+
+
+/*LETTER IN STEM*/
+
+
+
+
+
+
+
+
+
+
+
+/*UCCS*/
+.uccs{
+  background-image: url(https://media.giphy.com/media/5aQdxlErZXr30IjPFU/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: none;
+  font-size: 35px;
+  margin: 10px;
+}
+
+.uccs-img{
+  float: left;
+  padding-right: 40px;
+  margin-top: inherit;
+}
+
+.uccs-header{
+  align-items: left;
+  margin: 10px;
+}
+
+.uccs-link{
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+.uccs-btn{
+  top: 40px;
+  right: 80px;
+  float: right;
+  text-decoration: none;
+  color: #fff;
+  border: 4px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #2D36AB, #00F3FF);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.uccs-btn a:hover{
+  text-decoration: none;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 28px;
+}
+
+.uccs-content{
+  padding-left: 40px;
+  text-align: center;
+}
+
+.letter {
+  text-align: left;
+  background-image: url(https://media.giphy.com/media/2vnOFK7V41MJZ1Dy2S/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: none;
+  font-size: 35px;
+  margin: 10px;
+}
+
+/*HOSA Page*/
+.hosa-gif{
+  background-image: url(https://media.giphy.com/media/l0HlxYAXGbg8hWbgQ/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: .75;
+  margin: 10px 0;
+  padding-left: 35px;
+}
+
+.clear-hosa{
+  color: navy;
+  font-size: 26px;
+  padding-left: 35px;
+}
+
+.hosa-img{
+  padding-left: 25px;
+
+}
